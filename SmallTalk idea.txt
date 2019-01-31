@@ -1,0 +1,9 @@
+1. Call class BidBridge
+	a. BidBridge has an instance of withPermutation:
+		This accepts an OrderedCollection or Array. This is the deck
+	b. Has a play: method
+		Generates a random permutation of the above array
+	c. Has a printOn: method
+		Accepts a writeStream and prints the current state of teh baord on that stream.
+		Ends witha  #flush  as the last message.
+	
